@@ -310,7 +310,6 @@ header{
   background-color: transparent;
 }
 
-/* Div 1: خلفية الصورة الخفيفة المنفصلة */
 .product-img-box {
   width: 100%;
   height: 200px;
@@ -329,7 +328,7 @@ header{
   max-width: 88%;
   height: 190px;
   object-fit: contain;
-  margin-top: -35px; /* طالعة فوق السطح سنة */
+  margin-top: -35px; 
   transition: transform 0.3s ease;
   filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.08));
 }
@@ -338,7 +337,6 @@ header{
   transform: translateY(-8px);
 }
 
-/* Div 2: كارت المعلومات ذو الخلفية البيضاء المنفصل */
 .product-info {
   width: 100%;
   background-color: #ffffff;
@@ -422,14 +420,6 @@ header{
   border: none;
   color: #1E1E1E;
   font-size: 16px;
-}
-
-.custom-carousel-btn.carousel-control-prev {
-  left: 0;
-}
-
-.custom-carousel-btn.carousel-control-next {
-  right: 0;
 }
 
 .custom-carousel-btn:hover {
@@ -517,11 +507,6 @@ header{
 
   .carousel-item-next, .carousel-item-prev, .carousel-item.active {
     padding: 15px 15px 25px;
-  }
-
-  #productsCarousel .row {
-    --bs-gutter-x: 10px;
-    --bs-gutter-y: 12px;
   }
 
   .product-card {
@@ -1009,7 +994,6 @@ margin-top: 250px;
 
 
 
-/* ===== الكارت   ===== */
 .testimonial-card {
     position: relative;
     height: 520px;
@@ -1073,7 +1057,6 @@ margin-top: 250px;
     display: block;
 }
 
-/* نص الكارت */
 .card-content h4 {
     font-size: 17px;
     font-weight: 700;
@@ -1115,7 +1098,6 @@ margin-top: 250px;
     color: #E2E2E2 ; 
 }
 
-/* =====أزرار الكارسول ===== */
 #testimonialCarousel {
     position: relative;
     padding: 0 25px;
@@ -1139,8 +1121,6 @@ margin-top: 250px;
     color: #1E1E1E;
     font-size: 20px;
 }
-
-
 
 #testimonialCarousel .carousel-control-prev:hover,
 #testimonialCarousel .carousel-control-next:hover {
