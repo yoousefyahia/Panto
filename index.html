@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+        <a class="navbar-brand" href="#">panto</a>
+
+        <div class="navbar-actions">
+            <a href="cart.html" class="cart-icon">
+                <i class="bi bi-bag-fill"></i>
+            </a>
+
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#furniture" data-bs-toggle="dropdown">
+                        Furniture
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#furniture">Living Room</a></li>
+                        <li><a class="dropdown-item" href="#furniture">Bedroom</a></li>
+                        <li><a class="dropdown-item" href="#furniture">Dining Room</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#shop">Shop</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <a href="cart.html" class="cart-icon d-none d-lg-block">
+            <i class="bi bi-bag-fill"></i>
+        </a>
+    </div>
+</nav>
+
+<div class="headline">
+    <h1>
+        Make your interior more
+        <br>
+        minimalistic & modern
+    </h1>
+    <p>
+    Turn your room with panto into a lot more minimalist 
+    <br>
+    and modern with ease and speed 
+</p>
+</div>
+<div class="search-box">
+    <input 
+        type="text" 
+        placeholder="Search furniture"
+    />
+
+    <button type="button">
+        <i class="bi bi-search"></i>
+    </button>
+</div>
+    </header>
+    
+    <section class="why-us" id="about">
+    <div class="container">
+      <div class="row ">
+
+        <!-- Main Title -->
+        <div class="col-lg-2 col-md-12">
+          <h2 class="why-title">
+            Why  
+
+            Choosing Us
+          </h2>
+        </div>
+
+        <!-- Feature 1 -->
+        <div class="col-lg-3 col-md-4 col-sm-12 feature">
+          <h3 class="feature-title">Luxury facilities</h3>
+
+          <p class="feature-text">
+            The advantage of hiring a workspace with us is that gives you
+            comfortable service and all-around facilities.
+          </p>
+
+          <a href="coming-soon.html" class="more-link">
+            More Info
+            <span style="color:#E58411;">⟶</span>
+          </a>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col-lg-3 col-md-4 col-sm-12 feature">
+          <h3 class="feature-title">Affordable Price</h3>
+
+          <p class="feature-text">
+            You can get a workspace of the highest quality at an affordable
+            price and still enjoy the facilities that are only here.
+          </p>
+
+          <a href="coming-soon.html" class="more-link">
+            More Info
+           <span style="color:#E58411;">⟶</span>
+          </a>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col-lg-3 col-md-4 col-sm-12 feature">
+          <h3 class="feature-title">Many Choices</h3>
+
+          <p class="feature-text">
+            We provide many unique work space choices so that you can choose
+            the workspace to your liking.
+          </p>
+
+          <a href="coming-soon.html" class="more-link">
+            More Info
+            <span style="color:#E58411;">⟶</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<section class="product" id="shop">
+      <div id="furniture"></div>
+      <h2 class="category-title">Best Selling Product</h2>
+<div class="category-tabs">
+  <ul class="nav nav-pills" id="categoryTabs">
+    <li class="nav-item">
+      <button class="nav-link active" type="button">Chair</button>
+    </li>
+
+    <li class="nav-item">
+      <button class="nav-link" type="button">Beds</button>
+    </li>
+
+    <li class="nav-item">
+      <button class="nav-link" type="button">Sofa</button>
+    </li>
+
+    <li class="nav-item">
+      <button class="nav-link" type="button">Lamp</button>
+    </li>
+  </ul>
+</div>
+
+  <div class="product-carousel-container">
+    <div id="productsCarousel" class="carousel slide">
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+        <div class="row g-4">
+
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="product-card">
+              <div class="product-img-box">
+                <img src="images/chair1.png" class="img-fluid" alt="Sakarias Armchair">
+              </div>
+              <div class="product-info">
+                <span class="product-cat">Chair</span>
+                <h5>Sakarias Armchair</h5>
+                <div class="product-rating">
+                  <span class="stars">★★★★★</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <strong>$ 392</strong>
+                  <button class="add-btn"><i class="bi bi-plus-lg"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="product-card">
+              <div class="product-img-box">
+                <img src="images/chair4.png" class="img-fluid" alt="Baltsar Chair">
+              </div>
+              <div class="product-info">
+                <span class="product-cat">Chair</span>
+                <h5>Baltsar Chair</h5>
+                <div class="product-rating">
+                  <span class="stars">★★★★★</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <strong>$ 299</strong>
+                  <button class="add-btn"><i class="bi bi-plus-lg"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="product-card">
+              <div class="product-img-box">
+                <img src="images/chair2.png" class="img-fluid" alt="Anjay Chair">
+              </div>
+              <div class="product-info">
+                <span class="product-cat">Chair</span>
+                <h5>Anjay Chair</h5>
+                <div class="product-rating">
+                  <span class="stars">★★★★★</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <strong>$ 519</strong>
+                  <button class="add-btn"><i class="bi bi-plus-lg"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="product-card">
+              <div class="product-img-box">
+                <img src="images/chair3.png" class="img-fluid" alt="Nyantuy Chair">
+              </div>
+              <div class="product-info">
+                <span class="product-cat">Chair</span>
+                <h5>Nyantuy Chair</h5>
+                <div class="product-rating">
+                  <span class="stars">★★★★★</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <strong>$ 921</strong>
+                  <button class="add-btn"><i class="bi bi-plus-lg"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row g-4">
+
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="product-card">
+              <div class="product-img-box">
+                <img src="images/chair1.png" class="img-fluid" alt="Chair">
+              </div>
+              <div class="product-info">
+                <span class="product-cat">Chair</span>
+                <h5>Product Five</h5>
+                <div class="product-rating">
+                  <span class="stars">★★★★★</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <strong>$ 260</strong>
+                  <button class="add-btn"><i class="bi bi-plus-lg"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="product-card">
+              <div class="product-img-box">
+                <img src="images/chair2.png" class="img-fluid" alt="Chair">
+              </div>
+              <div class="product-info">
+                <span class="product-cat">Chair</span>
+                <h5>Respira</h5>
+                <div class="product-rating">
+                  <span class="stars">★★★★★</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <strong>$ 220</strong>
+                  <button class="add-btn"><i class="bi bi-plus-lg"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="product-card">
+              <div class="product-img-box">
+                <img src="images/chair3.png" class="img-fluid" alt="Chair">
+              </div>
+              <div class="product-info">
+                <span class="product-cat">Chair</span>
+                <h5>Respira</h5>
+                <div class="product-rating">
+                  <span class="stars">★★★★★</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <strong>$ 220</strong>
+                  <button class="add-btn"><i class="bi bi-plus-lg"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="product-card">
+              <div class="product-img-box">
+                <img src="images/chair4.png" class="img-fluid" alt="Chair">
+              </div>
+              <div class="product-info">
+                <span class="product-cat">Chair</span>
+                <h5>Respira</h5>
+                <div class="product-rating">
+                  <span class="stars">★★★★★</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <strong>$ 220</strong>
+                  <button class="add-btn"><i class="bi bi-plus-lg"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      </div>
+
+      <button
+        class="carousel-control-prev custom-carousel-btn"
+        type="button"
+        data-bs-target="#productsCarousel"
+        data-bs-slide="prev"
+      >
+        <i class="bi bi-arrow-left"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button
+        class="carousel-control-next custom-carousel-btn"
+        type="button"
+        data-bs-target="#productsCarousel"
+        data-bs-slide="next"
+      >
+        <i class="bi bi-arrow-right"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <a href="cart.html" class="view-all">
+            View All
+            <span style="color:#E58411;">⟶</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="experiences" id="experiences">
+    <div class="row">
+          <div class="image-wrapper">
+      <img src="images/Rectangle 1446.png" alt="Interior design">
+    </div>
+
+      <div class="experiences-info">
+        <h5 class="head-experiences">Experiences</h5>
+
+        <h1>We Provide you The Best Experience</h1>
+
+        <p style="font-size: 18px; opacity: 80%; line-height: 1.5; font-weight: 100;">
+          You don’t have to worry about the result because all of these
+          interiors are made by people who are professionals in their
+          fields with an elegant and luxurious style and with premium
+          quality materials.
+        </p>
+
+        <a href="cart.html" class="view-all-experiences">
+          view all
+          <span style="color: #E58411;">⟶</span>
+        </a>
+
+      </div>
+    </div>
+</section>
+
+<section class="materials" id="materials">
+    
+        <div class="materials-row">
+            
+            <div class="materials-info">
+                <h5 class="head-materials">MATERIALS</h5>
+                <h2>Very Serious Materials For Making Furniture</h2>
+                <p>
+                    Because panto was very serious about designing furniture for our
+                    environment, using a very expensive and famous capital but at a
+                    relatively low price.
+                </p>
+                <a href="coming-soon.html" class="view-all-materials">
+                    More Info <span>⟶</span>
+                </a>
+            </div>
+
+            <div class="materials-images">
+                <div class="img-small img-top">
+                    <img src="images/Materials2.png" alt="Material 1">
+                </div>
+                <div class="img-small img-bottom">
+                    <img src="images/Materials3.png" alt="Material 2">
+                </div>
+                <div class="img-large image-wrapper-ex">
+                    <img src="images/Materials1.png" alt="Material 3">
+                </div>
+            </div>
+
+        </div>
+    
+</section>
+
+<section class="testimonials py-5" id="testimonials">
+    <div class="container">
+        
+        
+        <div class="text-center mb-5">
+            <h5 class="head-testimonials">TESTIMONIALS</h5>
+            <h2 class="fw-bold">Our Client Reviews</h2>
+        </div>
+
+        <!-- ===== Carousel ===== -->
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- الكروت -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row g-4 justify-content-center">
+                        
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="testimonial-card">
+                                <div class="card-bg">
+                                    <img src="images/big3.png" alt="Room 1">
+                                </div>
+                                <div class="card-content">
+                                    <div class="avatar">
+                                        <img src="images/s1.png" alt="Client 1">
+                                    </div>
+                                    <h4>Bang Upin</h4>
+                                    <span class="job-title">Pedagang Asongan</span>
+                                    <p class="review-text">
+                                        “Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal”
+                                    </p>
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill star-muted"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="testimonial-card">
+                                <div class="card-bg">
+                                    <img src="images/big2.png" alt="Room 2">
+                                </div>
+                                <div class="card-content">
+                                    <div class="avatar">
+                                        <img src="images/s2.png" alt="Client 2">
+                                    </div>
+                                    <h4>Ibuk Sukijan</h4>
+                                    <span class="job-title">Ibu Rumah Tangga</span>
+                                    <p class="review-text">
+                                        “Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah”
+                                    </p>
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill star-muted"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="testimonial-card">
+                                <div class="card-bg">
+                                    <img src="images/big1.png" alt="Room 3">
+                                </div>
+                                <div class="card-content">
+                                    <div class="avatar">
+                                        <img src="images/s3.png" alt="Client 3">
+                                    </div>
+                                    <h4>Mpok Ina</h4>
+                                    <span class="job-title">Karyawan Swasta</span>
+                                    <p class="review-text">
+                                        “Sangat terjangkau untuk kantong saya yang tidak terlalu banyak”
+                                    </p>
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill star-muted"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row g-4 justify-content-center">
+                        
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="testimonial-card">
+                                <div class="card-bg">
+                                    <img src="images/big3.png" alt="Room 4">
+                                </div>
+                                <div class="card-content">
+                                    <div class="avatar">
+                                        <img src="images/s1.png" alt="Client 4">
+                                    </div>
+                                    <h4>Andi Wijaya</h4>
+                                    <span class="job-title">Karyawan Swasta</span>
+                                    <p class="review-text">
+                                        “Pelayanan sangat memuaskan, hasilnya melebihi ekspektasi saya”
+                                    </p>
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="testimonial-card">
+                                <div class="card-bg">
+                                    <img src="images/big2.png" alt="Room 5">
+                                </div>
+                                <div class="card-content">
+                                    <div class="avatar">
+                                        <img src="images/s2.png" alt="Client 5">
+                                    </div>
+                                    <h4>Siti Aminah</h4>
+                                    <span class="job-title">Ibu Rumah Tangga</span>
+                                    <p class="review-text">
+                                        “Desainnya modern dan harganya sangat terjangkau”
+                                    </p>
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill star-muted"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="testimonial-card">
+                                <div class="card-bg">
+                                    <img src="images/big1.png" alt="Room 6">
+                                </div>
+                                <div class="card-content">
+                                    <div class="avatar">
+                                        <img src="images/s3.png" alt="Client 6">
+                                    </div>
+                                    <h4>Budi Santoso</h4>
+                                    <span class="job-title">Pengusaha</span>
+                                    <p class="review-text">
+                                        “Kualitas material sangat bagus, saya sangat puas”
+                                    </p>
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <i class="bi bi-arrow-left"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <i class="bi bi-arrow-right"></i>
+            </button>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="contact">
+    <div class="container">
+        
+        <div class="footer-top">
+            
+            <div class="footer-col brand-col">
+                <h3 class="footer-logo">Panto</h3>
+                <p class="footer-desc">
+                    The advantage of hiring a workspace with us is that gives you comfortable service and all-around facilities.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h5 class="footer-title">Services</h5>
+                <ul class="footer-links">
+                    <li><a href="coming-soon.html">Email Marketing</a></li>
+                    <li><a href="coming-soon.html">Campaigns</a></li>
+                    <li><a href="coming-soon.html">Branding</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h5 class="footer-title">Furniture</h5>
+                <ul class="footer-links">
+                    <li><a href="#furniture">Beds</a></li>
+                    <li><a href="#furniture">Chair</a></li>
+                    <li><a href="#shop">All</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h5 class="footer-title">Follow Us</h5>
+                <ul class="footer-social">
+                    <li>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-facebook"></i> Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-twitter-x"></i> Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-instagram"></i> Instagram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">Copyright © 2021</p>
+            <div class="footer-bottom-links">
+                <a href="coming-soon.html">Terms & Conditions</a>
+                <a href="coming-soon.html">Privacy Policy</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="main.js"></script>
+</body>
+</html>
