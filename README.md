@@ -62,9 +62,3 @@
    ```
 2. Open the project folder.
 3. Open `index.html` in any modern web browser or run it with an extension like **Live Server** in VS Code.
-
----
-
-## 📄 License
-
-This project is open-source and available for educational and personal use.

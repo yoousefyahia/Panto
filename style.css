@@ -140,8 +140,7 @@ header{
     border: none;
     border-radius: 50%;
 
-    background: #E58411;
-    color: white;
+    color: rgb(10, 9, 9);
 
     display: flex;
     align-items: center;
@@ -1155,8 +1154,11 @@ margin-top: 250px;
     }
     
     .card-content {
-        margin: 0 12px 12px;
+     .card-content {
+        width: calc(100% - 24px);
+        margin: 0 auto 12px;
         padding: 34px 14px 16px;
+    }
     }
     
     .avatar {
